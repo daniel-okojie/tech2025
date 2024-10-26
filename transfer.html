@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Money Transfer</title>
 </head>
 <body>
     <header>
-        <h1>Contact Us</h1>
-        <p>We are here to help you 24/7.</p>
-
+        <h1>Funds Transfer</h1>
+        <p>Send money to family and friends at the speed of light.</p>
         <nav>
             <ul>
                 <li><a href="home.html">Home</a></li>
@@ -24,21 +23,27 @@
         width="1265"
         height="90"
         src="Images/homepage_banner.jpg" alt="landing Banner"> <br>
+        
+        
     </header>
 
-    <h3>Complete the form</h3> <br>
+    <h3>Send Money</h3>
 
     <form>
-        <label for="name">Name:</label>
-        <input type="text" required><br><br>
+        <label for="accountNumber">Your Account Number:</label>
+        <input type="number" required><br><br>
 
-        <label for="email">Email:</label>
-        <input type="email" required><br><br>
+        <label for="recipientAccountNumber">Recipient Account Number:</label>
+        <input type="number" required><br><br>
 
-        <label for="subject">Subject:</label>
-        <input type="text" required><br><br>
+        <label for="amount">Amount:</label>
+        <input type="number" required><br><br>
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" required></textarea><br><br>
+        <label for="description">Transfer Description:</label>
+        <input type="text" ><br><br>
+
+        <button type="submit">Transfer Money</button>
+    </form>
+    
 </body>
 </html>
